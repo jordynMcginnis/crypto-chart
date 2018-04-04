@@ -1,9 +1,4 @@
 
-- `node-sass` has been reported as having issues with detecting new files in a directory [#1891](https://github.com/sass/node-sass/issues/1891)
-
- `node-sass-chokidar` is used here as it addresses these issues.
-
-## Adding Images, Fonts, and Files
 
 With Webpack, using static assets like images and fonts works similarly to CSS.
 
