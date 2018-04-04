@@ -1,12 +1,5 @@
 
 
- sparingly!
-  // Normally we recommend using `import` for getting asset URLs
-  // as described in “Adding Images and Fonts” above this section.
-  return <img src={process.env.PUBLIC_URL + '/img/logo.png'} />;
-}
-```
-
 Keep in mind the downsides of this approach:
 
 * None of the files in `public` folder get post-processed or minified.
