@@ -1,13 +1,5 @@
 
 
- .io server](https://socket.io/docs/).
-
-Standard WebSockets **will** work with a standard
-
-
-
-Note that the server will use a self-signed certificate, so your web browser will almost definitely display a warning upon accessing the page.
-
 ## Generating Dynamic `<meta>` Tags on the Server
 
 Since Create React App doesn’t support server rendering, you might be wondering how to make `<meta>` tags dynamic and reflect the current URL. To solve this, we recommend to add placeholders into the HTML, like this:
