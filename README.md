@@ -5,13 +5,6 @@
 Standard WebSockets **will** work with a standard
 
 
-(Note: the lack of whitespace is intentional.)
-
-#### Linux, macOS (Bash)
-
-```bash
-HTTPS=true npm start
-```
 
 Note that the server will use a self-signed certificate, so your web browser will almost definitely display a warning upon accessing the page.
 
