@@ -3,6 +3,11 @@ import {Line} from 'react-chartjs-2';
 import FaAngleDoubleDown from 'react-icons/lib/fa/angle-double-down';
 import FaArrowCircleODown from 'react-icons/lib/fa/arrow-circle-o-down'
 import FaArrowCircleUp from 'react-icons/lib/fa/arrow-circle-up';
+import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
+import FaTwitterSquare from 'react-icons/lib/fa/twitter-square';
+import FaGetPocket from 'react-icons/lib/fa/get-pocket';
+import AOS from 'aos';
+
 const chartMain = (props) => {
   const data = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -32,12 +37,12 @@ const chartMain = (props) => {
 };
   return (
     <div className="chartmain">
-    <div className="other-projects"> </div>
+    <div className="other-projects"><FaGetPocket data-aos="fade-down" className='top' onClick={ () => {props.toggleClick()}}/> </div>
     <Line
       data={data}
       className='line'
       />
-      <div className="bottom-other-projects"><FaArrowCircleUp className='down'/></div>
+      <div className="bottom-other-projects" data-aos="fade-up"><FaTwitterSquare className='down' data-aos="fade-up"/><FaLinkedinSquare className='down'/></div>
     </div>
   )
 }

@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
-import './App.css';
+import FaTimesCircle from 'react-icons/lib/fa/times-circle';
 
 
 class Projects extends Component {
-  componentDidMount() {
-    AOS.init({
-      duration: 1200,
-    })
-  }
+
   render() {
     return (
-      <div className="projects" >
-       <div>
-         emoji game here
+      <div className="projects" data-aos="fade-down">
+       <div className= 'side'>
+         <h1 className='p-title'> JORDYNMCGINNIS.COM </h1>
+         <div className='items'>
+           <div className='emoji'>
+           </div>
+           <div className='airbnb'>
+           </div>
+         </div>
        </div>
       </div>
     );
