@@ -1,8 +1,4 @@
 
-- `node-sass --watch` has been reported to have *performance issues* in certain conditions when used in a virtual machine or with docker.
-
-- Infinite styles compiling [#1939](https://github.com/facebookincubator/create-react-app/issues/1939)
-
 - `node-sass` has been reported as having issues with detecting new files in a directory [#1891](https://github.com/sass/node-sass/issues/1891)
 
  `node-sass-chokidar` is used here as it addresses these issues.
