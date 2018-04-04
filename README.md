@@ -10,11 +10,7 @@ REACT_APP_SECRET_CODE=abcdef npm start
 ```
 
 ### Adding Development Environment Variables In `.env`
-* `npm start`: `.env.development.local`, `.env.development`, `.env.local`, `.env`
-*.com/motdotla/dotenv) for more details.
-
->Note: If you are defining environment variables for development, your CI and/or hosting platform will most likely need
-these defined as well. Consult their documentation how to do this. For example, see the documentation for [Travis CI](https://docs.travis-ci.com/user/environment-variables/) or [Heroku](https://devcenter.heroku.com/articles/config-vars).
+* `npm start`: `.env.development.local`, `center.heroku.com/articles/config-vars).
 
 #### Expanding Environment Variables In `.env`
 
