@@ -3,16 +3,6 @@
  .io server](https://socket.io/docs/).
 
 Standard WebSockets **will** work with a standard
-```js
-{o allows you to proxy WebSocket requests without an additional HTTP request
-      // https://github.com/chimurai/http-proxy-middleware#external-websocket-upgrade
-      "ws": true
-      // ...
-    }
-  }
-  // ...
-}
-```
 
 ## Using HTTPS in Development
 
