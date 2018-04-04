@@ -2,10 +2,6 @@
 
 
 
-
-s a development dependency. You may install other dependencies (for example, React Router) with `npm`:
-
-```sh
 npm install --save react-router
 ```
 
