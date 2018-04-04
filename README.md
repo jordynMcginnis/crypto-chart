@@ -1,10 +1,4 @@
 
-
-
-
-These environment variables can be useful for displaying information conditionally based on where the project is
-deployed or consuming sensitive data that lives outside of version control.
-
 First, you need to have environment variables defined. For example, let’s say you wanted to consume a secret defined
 in the environment inside a `<form>`:
 
