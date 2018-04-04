@@ -1,10 +1,5 @@
 
 
-### Adding Temporary Environment Variables In Your Shell
-
-Defining environment variables can vary between OSes. It’s also important to know that this manner is temporary for the
-life of the shell session.
-
 #### Windows (cmd.exe)
 
 ```cmd
