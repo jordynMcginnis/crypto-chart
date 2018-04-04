@@ -1,10 +1,5 @@
 
-
-```sh
-npm install --save npm-run-all
-```
-
-Alternatively you may use `yarn`:
+ernatively you may use `yarn`:
 
 ```sh
 yarn add npm-run-all
