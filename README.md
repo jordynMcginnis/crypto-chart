@@ -5,11 +5,6 @@
 
 
 
- code formatter with support for JavaScript, CSS and JSON. Wio/prettier/).
-
-To format our code whenever we make a commit in git, we need to install the following dependencies:
-
-```sh
 npm install --save husky lint-staged prettier
 ```
 
