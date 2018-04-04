@@ -1,5 +1,5 @@
 
-dering and testing some of the output, to full rendering and testing component lifecycle and state changes.
+d
 
 Different projects choose different testing tradeoffs based on how often components change, and how much logic they contain. If you haven’t decided on a testing strategy yet, we recommend that you start with creating simple smoke tests for your components:
 
