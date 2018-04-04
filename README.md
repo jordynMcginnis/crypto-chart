@@ -1,5 +1,3 @@
-xample, see the sections on [adding a stylesheet](#adding-a-stylesheet) and [adding images and fonts](#adding-images-fonts-and-files).
-This mechanism provides a number of benefits:
 
 * Scripts and stylesheets get minified and bundled together to avoid extra network requests.
 * Missing files cause compilation errors instead of 404 errors for your users.
