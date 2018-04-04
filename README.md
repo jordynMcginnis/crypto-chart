@@ -2,14 +2,6 @@
 
 
 
-Alternatively you may use `yarn`:
-
-```sh
-yarn add node-sass-chokidar
-```
-
-Then in `package.json`, add the following lines to `scripts`:
-
 ```diff
    "scripts": {
 +    "build-css": "node-sass-chokidar src/ -o src/",
