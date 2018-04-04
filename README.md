@@ -1,14 +1,5 @@
 
 
-
-The above form is looking for a variable called `forming actions conditionally:
-
-```js
-if (process.env.NODE_ENV !== 'production') {
-  analytics.disable();
-}
-```
-
 When you compile the app with `npm run build`, the minification step will strip out this condition, and the resulting bundle will be smaller.
 
 ### Referencing Environment Variables in the HTML
