@@ -13,12 +13,7 @@ REACT_APP_VERSION=$npm_package_version
 # also works:
  nesting.
 
-You can learn more about making AJAX requests from React components in [the FAQ entry on the React website](https://reactjs.org/docs/faq-ajax.html).
-
-## Integrating with an API Backend
-
-These tutorials will help you to integrate your app with an API backend running on another port,
-using `fetch()` to access it.
+You can learn more about making AJAX requests from Reh()` to access it.
 
 ### Node
 Check out [this tutorial](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/).
