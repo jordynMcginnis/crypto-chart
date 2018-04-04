@@ -1,7 +1,5 @@
 
-e importing files without using relative paths, you can add the  `--include-path` option to the command in `package.json`.
 
-```
 "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
 "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
 ```
