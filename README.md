@@ -6,18 +6,7 @@
 #### Linux, macOS (Bash)
 
 ```bash
-REACT_APP_SECRET_CODE=abcdef npm start
-```
-
-Fetch API cannot load http://localhost:4000/api/ around it, you can specify your public development host in a file called `.env.development` in the root of your project:
-
-```
-HOST=mypublicdevhost.com
-```
-
-If you restart the development server now and load the app from the specified host, it should work.
-
-If you are still having issues or if you’re using a more exotic environment like a cloud editor, you can bypass the host check completely by adding a line to `.env.development.local`. **Note that this is dangerous and exposes your machine to remote code execution from malicious websites:**
+ are still having issues or if you’re using a more exotic environment like a cloud editor, you can bypass the host check completely by adding a line to `.env.development.local`. **Note that this is dangerous and exposes your machine to remote code execution from malicious websites:**
 
 ```
 # NOTE: THIS IS DANGEROUS!
