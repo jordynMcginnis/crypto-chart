@@ -1,11 +1,4 @@
 
-
-When you compile the app with `npm run build`, the minification step will strip out this condition, and the resulting bundle will be smaller.
-
-### Referencing Environment Variables in the HTML
-
->Note: this feature is available with `react-scripts@0.9.0` and higher.
-
 You can also access the environment variables starting with `REACT_APP_` in the `public/index.html`. For example:
 
 ```html
