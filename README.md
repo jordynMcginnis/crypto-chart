@@ -2,12 +2,6 @@
 
 
 
-First, let’s install the command-line interface for Sass:
-
-```sh
-npm install --save node-sass-chokidar
-```
-
 Alternatively you may use `yarn`:
 
 ```sh
