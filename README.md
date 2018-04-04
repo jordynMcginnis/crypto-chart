@@ -4,8 +4,7 @@
 
 
 
-
-#generating-dynamic-meta-tags-on-the-server). Alternatively, you can pre-build each page as a static HTML file which then loads the JavaScript bundle, which is covered [here](#pre-rendering-into-static-html-files).
+es).
 
 ## Installing a Dependency
 
