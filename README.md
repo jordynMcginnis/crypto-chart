@@ -1,8 +1,5 @@
 
-st`, Jest will launch in the watch un
-import sum from './sum';
-
-You can also use [`jest.fn()` and `expect(fn).toBeCalled()`](https://facebook.github.io/jest/docs/en/expect.html#tohavebeencalled) to create “spies” or mock functions.
+n/expect.html#tohavebeencalled) to create “spies” or mock functions.
 
 ### Testing Components
 
