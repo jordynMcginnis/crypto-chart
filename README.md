@@ -11,12 +11,7 @@ REACT_APP_SECRET_CODE=abcdef npm start
 
 ### Adding Development Environment Variables In `.env`
 * `npm start`: `.env.development.local`, `center.heroku.com/articles/config-vars).
-
-#### Expanding Environment Variables In `.env`
-
->Note: this feature is available with `react-scripts@1.1.0` and higher.
-
-Expand variables already on your machine for use in your `.env` file (using [dotenv-expand](https://github.com/motdotla/dotenv-expand)).
+r `.env` file (using [dotenv-expand](https://github.com/motdotla/dotenv-expand)).
 
 For example, to get the environment variable `npm_package_version`:
 
