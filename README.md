@@ -5,13 +5,6 @@
 Since Create React App doesn’t support server rendering, you might be wondering how to make `<meta>` tags dynamic and reflect the current URL. To solve est provides browser globals such as `window` thanks  `npm test`, Jest will launch in the watch un
 import sum from './sum';
 
-it('sums numbers', () => {
-  expect(sum(1, 2)).toEqual(3);
-  expect(sum(2, 2)).toEqual(4);
-});
-```
-
-All `expect()` matchers supported by Jest are [extensively documented here](https://facebook.github.io/jest/docs/en/expect.html#content).<br>
 You can also use [`jest.fn()` and `expect(fn).toBeCalled()`](https://facebook.github.io/jest/docs/en/expect.html#tohavebeencalled) to create “spies” or mock functions.
 
 ### Testing Components
