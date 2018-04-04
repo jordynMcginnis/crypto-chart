@@ -1,10 +1,5 @@
 
-time they change.
-
-### When to Use the `public` Folder
-
-Normally we recommend importing [stylesheets](#adding-a-stylesheet), [images, and fonts](#adding-images-fonts-and-files) from JavaScript.
-The `public` folder is useful as a workaround for a number of less common cases:
+ic` folder is useful as a workaround for a number of less common cases:
 
 * You need a file with a specific name in the build output, such as [`manifest.webmanifest`](https://developer.mozilla.org/en-US/docs/Web/Manifest).
 * You have thousands of images and need to dynamically reference their paths.
