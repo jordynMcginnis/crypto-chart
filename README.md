@@ -4,14 +4,6 @@
 
 Standard WebSockets **will** work with a standard
 
-set HTTPS=true&&npm start
-```
-
-#### Windows (Powershell)
-
-```Powershell
-($env:HTTPS = $true) -and (npm start)
-```
 
 (Note: the lack of whitespace is intentional.)
 
