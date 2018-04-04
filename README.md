@@ -3,17 +3,7 @@
 
     // Matches any request starting with /foo
     "/foo": {
-      "target": "<url_2>",
-      "ssl": true,
 
-    // Matches /baz/abc.html and /baz/sub/def.html
-    "/baz/.*/.*[.]html": {
-      "target": "<url_4>"
-      // ...
-    }
-  }
-  // ...
-}
 ```
 
 ### Configuring a WebSocket Proxy
