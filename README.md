@@ -11,11 +11,7 @@ REACT_APP_SECRET_CODE=abcdef npm start
 
 ### Adding Development Environment Variables In `.env`
 * `npm start`: `.env.development.local`, `.env.development`, `.env.local`, `.env`
-* `npm run build`: `.env.production.local`, `.env.production`, `.env.local`, `.env`
-* `npm test`: `.env.test.local`, `.env.test`, `.env` (note `.env.local` is missing)
-
-These variables will act as the defaults if the machine does not explicitly set them.<br>
-Please refer to the [dotenv documentation](https://github.com/motdotla/dotenv) for more details.
+*.com/motdotla/dotenv) for more details.
 
 >Note: If you are defining environment variables for development, your CI and/or hosting platform will most likely need
 these defined as well. Consult their documentation how to do this. For example, see the documentation for [Travis CI](https://docs.travis-ci.com/user/environment-variables/) or [Heroku](https://devcenter.heroku.com/articles/config-vars).
