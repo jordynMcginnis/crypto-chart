@@ -1,9 +1,4 @@
- HTML
-
-The `public` folder contains the HTML file so you can tweak it, for example, to [set the page title](#changing-the-page-title).
-The `<script>` tag with the compiled code will be added to it automatically during the build process.
-
-### Adding Assets Outside of the Module System
+ Adding Assets Outside of the Module System
 
 You can also add other assets to the `public` folder.
 
