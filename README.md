@@ -1,13 +1,4 @@
 
-otstrap';
-```
-
-Now you are ready to use the imported React Bootstrap components within your component hierarchy defined in the render method. Here is an example [`App.js`](https://gist.githubusercontent.com/gaearon/85d8c067f6af1e56277c82d19fd4da7b/raw/6158dd991b67284e9fc8d70b9d973efe87659d72/App.js) redone using React Bootstrap.
-
-### Using a Custom Theme
-
-Sometimes you might need to tweak the visual styles of Bootstrap (or equivalent package).<br>
-We suggest the following approach:
 
 * Create a new package that depends on the package you wish to customize, e.g. Bootstrap.
 * Add the necessary build steps to tweak the theme, and publish your package on npm.
