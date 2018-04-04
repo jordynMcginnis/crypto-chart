@@ -1,12 +1,7 @@
 
 
 web/example/basic) is a good place to get started.
-
-Note that [you may need to configure your production server to support client-side routing](#serving-apps-with-client-side-routing) before deploying your app.
-
-## Adding Custom Environment Variables
-
->Note: this feature is available with `react-scripts@0.2.3` and higher.
+his feature is available with `react-scripts@0.2.3` and higher.
 
 Your project can consume variables declared in your environment as if they were declared locally in your JS files. By
 default you will have `NODE_ENV` defined for you, and any other environment variables starting with
