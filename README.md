@@ -3,23 +3,6 @@
 
 ```
 
-#### Linux, macOS (Bash)
-
-
-### Configuring the Proxy Manually
-
-  // ...
-  "proxy": {
-    "/api": {
-      "target": "<url>",
-      "ws": true
-      // ...
-    }
-  }
-  // ...
-}
-```
-
 All requests matching this path will be proxies, no exceptions. This includes requests for `text/html`, which the standard `proxy` option does not proxy.
 
 If you need to specify multiple proxies, you may do so by specifying additional entries.
