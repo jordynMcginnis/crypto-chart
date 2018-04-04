@@ -1,28 +1,83 @@
 .App {
   text-align: center;
-}
+  display: flex;
+  align-items: flex-start;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  width: 30vw;
+  height: 80vh;
   padding: 20px;
-  color: white;
+  color: grey;
+  border-color: #00c6c3;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 50px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-title {
   font-size: 1.5em;
 }
 
-.App-intro {
-  font-size: large;
+.intro {
+  width: 390px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.highlight {
+  color: #00c6c3;
 }
+
+.App-intro {
+  margin-left: 60px;
+  font-size: large;
+  color: grey;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.chartmain {
+  color: #56e39f;
+  width: 60vw;
+
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+}
+.down {
+  height: 55px;
+  width: 55px;
+  margin: 10px;
+}
+.other-projects {
+  height: 25vh;
+  display: flex;
+  justify-content: flex-end;
+  color: #00c6c3;
+}
+.line {
+  color: red;
+  margin-top: 50px;
+}
+.bottom-other-projects {
+  background-color: red;
+  height: 45vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #00c6c3;
+}
+
