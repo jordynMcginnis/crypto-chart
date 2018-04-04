@@ -1,21 +1,4 @@
 
-
-
- ES6+ features that need **runtime support** (such as `Array.from()` or `Symbol`), make sure you are including the appropriate polyfills manually, or that the browsers you are targeting already support them.
-
-Also note that using some newer syntax features like `for...of` or `[...nonArrayValue]` causes Babel to emit code that depends on ES6 runtime features and might not work without a polyfill. When in doubt, use [Babel REPL](https://babeljs.io/repl/) to see what any specific syntax compiles down to.
-
-## Syntax Highlighting in the Editor
-
-To configure the syntax highlighting in your favorite text editor, head to the [relevant Babel documentation page](https://babeljs.io/docs/editors) and follow the instructions. Some of the most popular editors are covered.
-
-## Displaying Lint Output in the Editor
-
->Note: this feature is available with `react-scripts@0.2.0` and higher.<br>
->It also only works with npm 3 or higher.
-
-Some editors, including Sublime Text, Atom, and Visual Studio Code, provide plugins for ESLint.
-
 They are not required for linting. You should see the linter output right in your terminal as well as the browser console. However, if you prefer the lint results to appear right in your editor, there are some extra steps you can do.
 
 You would need to install an ESLint plugin for your editor first. Then, add a file called `.eslintrc` to the project root:
