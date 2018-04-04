@@ -1,8 +1,5 @@
 
 
-When you load the app in the browser and inspect the `<input>`, you will see its value set to `abcdef`, and the bold text will show the environment provided when using `npm start`:
-
-```html
 <div>
   <small>You are running this application in <b>development</b> mode.</small>
   <form>
