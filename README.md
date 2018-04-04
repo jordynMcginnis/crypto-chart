@@ -3,16 +3,7 @@
 ## Generating Dynamic `<meta>` Tags on the Server
 
 Since Create React App doesn’t support server rendering, you might be wondering how to make `<meta>` tags dynamic and reflect the current URL. To solve this, we recommend to add placeholders into the HTML, like this:
-licating it also works fine in simple cases.
-
-## Pre-Rendering into Static HTML Files
-
-I
-You can read more about [zero-configuration pre-rendering (also called snapshotting) here](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319).
-
-## Injecting Data from the Server into the Page
-
-Similarly to the previous section, you can leave some placeholders in the HTML that inject global variables, for example:
+r example:
 
 ```js
 <!doctype html>
