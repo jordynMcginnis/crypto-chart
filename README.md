@@ -3,12 +3,7 @@
 ## Generating Dynamic `<meta>` Tags on the Server
 
 Since Create React App doesn’t support server rendering, you might be wondering how to make `<meta>` tags dynamic and reflect the current URL. To solve est provides browser globals such as `window` thanks to [jsdom](https://github.com/tmpvar/jsdom), they are only approximations of the real browser behavior. Jest is intended to be used for unit tests of your logic and your components rather than the DOM quirks.
-
-We recommend that you use a separate tool for browser end-to-end tests if you need them. They are beyond the scope of Create React App.
-
-### Filename Conventions
-
-Jest will look for test files with any of the following popular naming conventions:
+iles with any of the following popular naming conventions:
 
 * Files with `.js` suffix in `__tests__` folders.
 * Files with `.test.js` suffix.
