@@ -1,11 +1,4 @@
-
-ernatively you may use `yarn`:
-
-```sh
-yarn add npm-run-all
-```
-
-Then we can change `start` and `build` scripts to include the CSS preprocessor commands:
+ change `start` and `build` scripts to include the CSS preprocessor commands:
 
 ```diff
    "scripts": {
