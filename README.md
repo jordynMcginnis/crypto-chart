@@ -1,8 +1,5 @@
 
 
-
-When you run `npm run build`, Create React App will substitute `%PUBLIC_URL%` with a correct absolute path so your project works even if you use client-side routing or host it at a non-root URL.
-
 In JavaScript code, you can use `process.env.PUBLIC_URL` for similar purposes:
 
 ```js
