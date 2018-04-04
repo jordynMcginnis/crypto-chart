@@ -9,14 +9,7 @@
 REACT_APP_SECRET_CODE=abcdef npm start
 ```
 
-Fetch API cannot load http://localhost:4000/api/todos. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://
-).
-
-This shouldn’t affect you when developing on `localhost`, but if you develop remotely like [described here](https://github.com/facebookincubator/create-react-app/issues/2271), you will see this error in the browser after enabling the `proxy` option:
-
->Invalid Host header
-
-To work around it, you can specify your public development host in a file called `.env.development` in the root of your project:
+Fetch API cannot load http://localhost:4000/api/ around it, you can specify your public development host in a file called `.env.development` in the root of your project:
 
 ```
 HOST=mypublicdevhost.com
