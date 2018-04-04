@@ -12,11 +12,6 @@ REACT_APP_SECRET_CODE=abcdef npm start
 REACT_APP_VERSION=$npm_package_version
 # also works:
 
-Create React App will add decorator support when the specification advances to a stable stage.
-
-## Fetching Data with AJAX Requests
-
-React doesn't prescribe a specific approach to data fetching, but people commonly use either a library like [axios](https://github.com/axios/axios) or the [`fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) provided by the browser. Conveniently, Create React App includes a polyfill for `fetch()` so you can use it without worrying about the browser support.
 
 The global `fetch` function allows to easily makes AJAX requests. It takes in a URL as an input and returns a `Promise` that resolves to a `Response` object. You can find more information about `fetch` [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
 
