@@ -13,13 +13,7 @@ REACT_APP_VERSION=$npm_package_version
 # also works:
 /github.com/fullstackreact/food-lookup-demo).
 
-### Ruby on Rails
-xying API Requests in Development
-
->Note: this feature is available with `react-scripts@0.2.3` and higher.
-
-People often serve the front-end React app from the same host and port as their backend implementation.<br>
-For example, a production setup might look like this after the app is deployed:
+the app is deployed:
 
 ```
 /             - static server returns index.html with React app
