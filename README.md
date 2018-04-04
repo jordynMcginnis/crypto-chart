@@ -1,16 +1,5 @@
 
 
-
-
-npm install --save react-router
-```
-
-Alternatively you may use `yarn`:
-
-```sh
-yarn add react-router
-```
-
 This works for any library, not just `react-router`.
 
 ## Importing a Component
