@@ -11,14 +11,7 @@ REACT_APP_SECRET_CODE=abcdef npm start
 
 ### Adding Development Environment Variables In `.env`
 ith the exclusion of `.env*.local`).
-
-#### What other `.env` files can be used?
-
->Note: this feature is **available with `react-scripts@1.0.0` and higher**.
-
-* `.env`: Default.
-* `.env.local`: Local overrides. **This file is loaded for all environments except test.**
-* `.env.development`, `.env.test`, `.env.production`: Environment-specific settings.
+.env.development`, `.env.test`, `.env.production`: Environment-specific settings.
 * `.env.development.local`, `.env.test.local`, `.env.production.local`: Local overrides of environment-specific settings.
 
 Files on the left have more priority than files on the right:
