@@ -1,5 +1,4 @@
 
-Note that if you add a `<script>` that declares global variables, you also need to read the next section on using them.
 
 ## Using Global Variables
 
