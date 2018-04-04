@@ -1,14 +1,5 @@
 
-
-* Create a new package that depends on the package you wish to customize, e.g. Bootstrap.
-* Add the necessary build steps to tweak the theme, and publish your package on npm.
-* Install your own theme npm package as a dependency of your app.
-
-Here is an example of adding a [customized Bootstrap](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165) that follows these steps.
-
-## Adding Flow
-
-Flow is a static type checker that helps you write code with fewer bugs. Check out this [introduction to using static types in JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb) if you are new to this concept.
+ is a static type checker that helps you write code with fewer bugs. Check out this [introduction to using static types in JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb) if you are new to this concept.
 
 Recent versions of [Flow](http://flowtype.org/) work with Create React App projects out of the box.
 
