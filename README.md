@@ -11,16 +11,6 @@ REACT_APP_SECRET_CODE=abcdef npm start
 
 REACT_APP_VERSION=$npm_package_version
 # also works:
-/github.com/fullstackreact/food-lookup-demo).
-
-the app is deployed:
-etup is **not** required. However, if you **do** have a setup like this, it is convenient to write requests like `fetch('/api/todos')` without worrying about redirecting them to another host or port during development.
-
-To tell the development server to proxy any unknown requests to your API server in development, add a `proxy` field to your `package.json`, for example:
-
-```js
-  "proxy": "http://localhost:4000",
-```
 
 This way, when you `fetch('/api/todos')` in development, the development server will recognize that it’s not a static asset, and will proxy your request to `http://localhost:4000/api/todos` as a fallback. The development server will **only** attempt to send requests without `text/html` in its `Accept` header to the proxy.
 
