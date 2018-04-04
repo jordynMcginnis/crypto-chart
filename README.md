@@ -1,17 +1,6 @@
 
 
-#### Windows (cmd.exe)
 
-```cmd
-set "REACT_APP_SECRET_CODE=abcdef" && npm start
-```
-
-(Note: Quotes around the variable assignment are required to avoid a trailing whitespace.)
-
-#### Windows (Powershell)
-
-```Powershell
-($env:REACT_APP_SECRET_CODE = "abcdef") -and (npm start)
 ```
 
 #### Linux, macOS (Bash)
