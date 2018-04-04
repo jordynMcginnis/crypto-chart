@@ -3,13 +3,7 @@
  .io server](https://socket.io/docs/).
 
 Standard WebSockets **will** work with a standard
-using [the "proxy" feature](#proxying-api-requests-in-development) to proxy requests to an API server when that API server is itself serving HTTPS.
 
-To do this, set the `HTTPS` environment variable to `true`, then start the dev server as usual with `npm start`:
-
-#### Windows (cmd.exe)
-
-```cmd
 set HTTPS=true&&npm start
 ```
 
