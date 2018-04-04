@@ -1,10 +1,4 @@
 
-You can also access the environment variables starting with `REACT_APP_` in the `public/index.html`. For example:
-
-```html
-<title>%REACT_APP_WEBSITE_NAME%</title>
-```
-
 Note that the caveats from the above section apply:
 
 * Apart from a few built-in variables (`NODE_ENV` and `PUBLIC_URL`), variable names must start with `REACT_APP_` to work.
