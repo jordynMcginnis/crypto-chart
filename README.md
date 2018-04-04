@@ -1,8 +1,4 @@
 
-Note that the caveats from the above section apply:
-
-* Apart from a few built-in variables (`NODE_ENV` and `PUBLIC_URL`), variable names must start with `REACT_APP_` to work.
-* The environment variables are injected at build time. If you need to inject them at runtime, [follow this approach instead](#generating-dynamic-meta-tags-on-the-server).
 
 ### Adding Temporary Environment Variables In Your Shell
 
