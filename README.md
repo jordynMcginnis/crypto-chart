@@ -1,8 +1,6 @@
 
 
-While you can still use `require()` and `module.exports`, we encourage you to use [`import` and `export`](http://exploringjs.com/es6/ch_modules.html) instead.
 
-For example:
 
 ### `Button.js`
 
