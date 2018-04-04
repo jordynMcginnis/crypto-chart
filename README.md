@@ -1,9 +1,4 @@
-
- is a static type checker that helps you write code with fewer bugs. Check out this [introduction to using static types in JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb) if you are new to this concept.
-
-Recent versions of [Flow](http://flowtype.org/) work with Create React App projects out of the box.
-
-To add Flow to a Create React App project, follow these steps:
+ Flow to a Create React App project, follow these steps:
 
 1. Run `npm install --save flow-bin` (or `yarn add flow-bin`).
 2. Add `"flow": "flow"` to the `scripts` section of your `package.json`.
