@@ -1,7 +1,4 @@
 
-Named exports are useful for utility modules that export several functions. A module may have at most one default export and as many named exports as you like.
-
-Learn more about ES6 modules:
 
 * [When to use the curly braces?](http://stackoverflow.com/questions/36795819/react-native-es-6-when-should-i-use-curly-braces-for-import/36796281#36796281)
 * [Exploring ES6: Modules](http://exploringjs.com/es6/ch_modules.html)
