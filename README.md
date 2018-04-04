@@ -12,13 +12,6 @@ REACT_APP_SECRET_CODE=abcdef npm start
 REACT_APP_VERSION=$npm_package_version
 # also works:
 # REACT_APP_VERSION=${npm_package_version}
-```
-
-## Can I Use Decorators?
-
-* It is an experimental proposal and is subject to change.
-* The current specification version is not officially supported by Babel.
-* If the specification changes, we won’t be able to write a codemod because we don’t use them internally at Facebook.
 
 However in many cases you can rewrite decorator-based code without decorators just as fine.<br>
 Please refer to these two threads for reference:
