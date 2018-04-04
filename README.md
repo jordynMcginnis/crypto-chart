@@ -1,7 +1,5 @@
 
-n/expect.html#tohavebeencalled) to create “spies” or mock functions.
-
-### Testing Components
+ Components
 
 There is a broad spectrum of component testing techniques. They range from a “smoke test” verifying that a component renders without throwing, to shallow rendering and testing some of the output, to full rendering and testing component lifecycle and state changes.
 
