@@ -1,7 +1,4 @@
 
-for your users.
-* Result filenames include content hashes so you don’t need to worry about browsers caching their old versions.
-
 However there is an **escape hatch** that you can use to add an asset outside of the module system.
 
 If you put a file into the `public` folder, it will **not** be processed by Webpack. Instead it will be copied into the build folder untouched.   To reference assets in the `public` folder, you need to use a special variable called `PUBLIC_URL`.
