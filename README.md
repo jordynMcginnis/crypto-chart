@@ -7,10 +7,7 @@ licating it also works fine in simple cases.
 
 ## Pre-Rendering into Static HTML Files
 
-If you’re hosting your `build` with a static hosting ating and caching routes.
-
-The primary benefit of pre-rendering is that you get the core content of each page _with_ the HTML payload—regardless of whether or not your JavaScript bundle successfully downloads. It also increases the likelihood that each route of your application will be picked up by search engines.
-
+I
 You can read more about [zero-configuration pre-rendering (also called snapshotting) here](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319).
 
 ## Injecting Data from the Server into the Page
