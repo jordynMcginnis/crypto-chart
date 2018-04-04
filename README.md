@@ -1,11 +1,5 @@
 
 
-
-**It is not required for React** but many people enjoy it (and React Native uses a similar mechanism for images).<br>
-An alternative way of handling static assets is described in the next section.
-
-## Using the `public` Folder
-
 >Note: this feature is available with `react-scripts@0.5.0` and higher.
 
 ### Changing the HTML
