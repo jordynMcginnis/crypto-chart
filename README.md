@@ -1,10 +1,6 @@
 
 
-In JavaScript code, you can use `process.env.PUBLIC_URL` for similar purposes:
-
-```js
-render() {
-  // Note: this is an escape hatch and should be used sparingly!
+ sparingly!
   // Normally we recommend using `import` for getting asset URLs
   // as described in “Adding Images and Fonts” above this section.
   return <img src={process.env.PUBLIC_URL + '/img/logo.png'} />;
