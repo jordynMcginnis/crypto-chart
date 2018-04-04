@@ -1,17 +1,5 @@
 
 
-Here is an example:
-
-### `moduleA.js`
-
-```js
-const moduleA = 'Hello';
-
-export { moduleA };
-```
-### `App.js`
-
-```js
 import React, { Component } from 'react';
 
 class App extends Component {
