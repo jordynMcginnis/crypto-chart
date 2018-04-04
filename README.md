@@ -1,15 +1,5 @@
 
 
-
-  render() {
-    return (
-      <div>
-        <button onClick={this.handleClick}>Load</button>
-      </div>
-    );
-  }
-}
-
 export default App;
 ```
 
