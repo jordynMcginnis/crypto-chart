@@ -11,13 +11,7 @@ REACT_APP_SECRET_CODE=abcdef npm start
 
 REACT_APP_VERSION=$npm_package_version
 # also works:
- nesting.
-
-You can learn more about making AJAX requests from Reh()` to access it.
-
-### Node
-Check out [this tutorial](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/).
-You can find the companion GitHub repository [here](https://github.com/fullstackreact/food-lookup-demo).
+/github.com/fullstackreact/food-lookup-demo).
 
 ### Ruby on Rails
 
