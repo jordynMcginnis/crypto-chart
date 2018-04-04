@@ -14,14 +14,6 @@ REACT_APP_VERSION=$npm_package_version
 # REACT_APP_VERSION=${npm_package_version}
 ```
 
-Or expand variables local to the current `.env` file:
-
-```
-DOMAIN=www.example.com
-REACT_APP_FOO=$DOMAIN/foo
-REACT_APP_BAR=$DOMAIN/bar
-```
-
 ## Can I Use Decorators?
 
 Many popular libraries use [decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841) in their documentation.<br>
