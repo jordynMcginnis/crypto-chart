@@ -1,8 +1,5 @@
 
-
-Keep in mind the downsides of this approach:
-
-* None of the files in `public` folder get post-processed or minified.
+essed or minified.
 * Missing files will not be called at compilation time, and will cause 404 errors for your users.
 * Result filenames won’t include content hashes so you’ll need to add query arguments or rename them every time they change.
 
