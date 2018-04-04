@@ -5,16 +5,7 @@
     "/foo": {
       "target": "<url_2>",
       "ssl": true,
-      "pathRewrite": {
-        "^/foo": "/foo/beta"
-      }
-      // ...
-    },
-    // Matches /bar/abc.html but not /bar/sub/def.html
-    "/bar/[^/]*[.]html": {
-      "target": "<url_3>",
-      // ...
-    },
+
     // Matches /baz/abc.html and /baz/sub/def.html
     "/baz/.*/.*[.]html": {
       "target": "<url_4>"
