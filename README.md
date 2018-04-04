@@ -1,13 +1,4 @@
 
-For example, this:
-
-```css
-.App {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-```
 
 becomes this:
 
