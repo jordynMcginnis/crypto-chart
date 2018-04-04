@@ -1,11 +1,5 @@
 
-First, you need to have environment variables defined. For example, let’s say you wanted to consume a secret defined
-in the environment inside a `<form>`:
 
-```jsx
-render() {
-  return (
-    <div>
       <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
       <form>
         <input type="hidden" defaultValue={process.env.REACT_APP_SECRET_CODE} />
