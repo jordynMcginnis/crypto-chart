@@ -10,16 +10,7 @@ REACT_APP_SECRET_CODE=abcdef npm start
 ```
 
 ### Adding Development Environment Variables In `.env`
-
->Note: this feature is available with `react-scripts@0.5.0` and higher.
-
-To define permanent environment variables, create a file called `.env` in the root of your project:
-
-```
-REACT_APP_SECRET_CODE=abcdef
-```
->Note: You must create custom environment variables
-`.env` files **should be** checked into source control (with the exclusion of `.env*.local`).
+ith the exclusion of `.env*.local`).
 
 #### What other `.env` files can be used?
 
