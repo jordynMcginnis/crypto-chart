@@ -9,13 +9,6 @@
 REACT_APP_SECRET_CODE=abcdef npm start
 ```
 
-### Adding Development Environment Variables In `.env`
-* `npm start`: `.env.development.local`, `center.heroku.com/articles/config-vars).
-r `.env` file (using [dotenv-expand](https://github.com/motdotla/dotenv-expand)).
-
-For example, to get the environment variable `npm_package_version`:
-
-```
 REACT_APP_VERSION=$npm_package_version
 # also works:
 # REACT_APP_VERSION=${npm_package_version}
