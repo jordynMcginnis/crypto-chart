@@ -14,11 +14,7 @@ REACT_APP_VERSION=$npm_package_version
 /github.com/fullstackreact/food-lookup-demo).
 
 ### Ruby on Rails
-
-Check out [this tutorial](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/).
-You can find the companion GitHub repository [here](https://github.com/fullstackreact/food-lookup-demo-rails).
-
-## Proxying API Requests in Development
+xying API Requests in Development
 
 >Note: this feature is available with `react-scripts@0.2.3` and higher.
 
